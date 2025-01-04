@@ -5,27 +5,39 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <Link>Home</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          Home
+        </Link>
       </li>
       <li>
-        <Link>About</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          About
+        </Link>
       </li>
       <li>
-        <Link>Skills</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          Skills
+        </Link>
       </li>
       <li>
-        <Link>Education</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          Education
+        </Link>
       </li>
       <li>
-        <Link>Projects</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          Projects
+        </Link>
       </li>
       <li>
-        <Link>Contact</Link>
+        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+          Contact
+        </Link>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar fixed top-0 bg-base-300 w-11/12 z-50 mx-auto py-3 pl-2 lg:pl-5 pr-5 rounded-b-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,20 +45,28 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-2"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-2 text-royal-blue font-bold"
           >
             {navOptions}
           </ul>
         </div>
-        <Link to="/" className="text-4xl font-bold">
-          Mehedi Hasan Munna
+        <Link to="/" className="text-2xl font-bold text-royal-blue">
+          MUNNA
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-1">{navOptions}</ul>
+        <ul className=" menu-horizontal px-1 gap-10 text-royal-blue font-bold text-lg ">
+          {navOptions}
+        </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Download Resume</a>
+        <a
+          href="/resume.pdf"
+          download="Munna_Resume.pdf"
+          className="btn bg-royal-blue text-white hover:bg-navy-light "
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   );

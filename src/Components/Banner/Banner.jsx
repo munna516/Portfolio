@@ -1,7 +1,7 @@
 import React from "react";
 
 const Banner = () => {
-  return <div>This is Banner</div>;
+  return <div className="mt-20"></div>;
 };
 
 export default Banner;
