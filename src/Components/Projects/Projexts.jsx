@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import Title from "../Title/Title";
+import ProjectCard from "./ProjectCard";
 
 const Projexts = () => {
-    return (
-        <div>
-            This is projects
-        </div>
-    );
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("/allProjects.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+      });
+  }, []);
+  return (
+    <div>
+      <Title title="Projects"></Title>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.map((project) => (
+          <ProjectCard key={project.id} project={project}></ProjectCard>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Projexts;

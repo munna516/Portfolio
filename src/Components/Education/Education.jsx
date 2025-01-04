@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div>
       <Title title="Education"></Title>
-      <div className="md:flex items-center justify-center gap-20  ">
+      <div className="md:flex items-center justify-center gap-10 md:gap-20 lg:gap-40 ">
         <div className="flex justify-center items-center">
           <img className="w-60 " src={diuPic} alt="" />
         </div>

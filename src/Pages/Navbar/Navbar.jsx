@@ -51,7 +51,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="text-2xl font-bold text-royal-blue">
-          MUNNA
+         MH MUNNA
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
