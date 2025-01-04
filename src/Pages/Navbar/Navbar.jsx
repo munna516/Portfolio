@@ -5,34 +5,52 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#home"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           Home
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#about"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           About
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#skills"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           Skills
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#education"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           Education
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#project"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           Projects
-        </Link>
+        </a>
       </li>
       <li>
-        <Link className="border-royal-blue hover:border-b-2 rounded-b-sm">
+        <a
+          href="#contact"
+          className="border-royal-blue hover:border-b-2 rounded-b-sm"
+        >
           Contact
-        </Link>
+        </a>
       </li>
     </>
   );
@@ -50,8 +68,11 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <Link to="/" className="text-xl md:text-2xl lg:text-3xl font-bold text-royal-blue">
-         MH MUNNA
+        <Link
+          to="/"
+          className="text-xl md:text-2xl lg:text-3xl font-bold text-royal-blue"
+        >
+          MH MUNNA
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

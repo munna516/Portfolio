@@ -19,13 +19,13 @@ const Contact = () => {
   return (
     <>
       <Title title="Contact"></Title>
-      <div className="md:flex items-center justify-evenly mb-12 mt-10">
+      <div id="contact" className="md:flex items-center mb-12 mt-10 p-2">
         <div className="space-y-5 md:w-5/12">
-          <div className="flex items-center text-xl gap-3 font-bold">
+          <div className="flex items-center lg:text-xl gap-3 font-bold">
             <FaLocationDot></FaLocationDot>{" "}
             <h1 className="text-royal-blue">Uttara, Dhaka ,Bangladesh</h1>
           </div>
-          <div className="flex items-center text-xl gap-3 font-bold">
+          <div className="flex items-center lg:text-xl gap-3 font-bold">
             <FaWhatsapp className="text-2xl"></FaWhatsapp>{" "}
             <a
               className="text-royal-blue cursor-pointer hover:underline"
@@ -35,7 +35,7 @@ const Contact = () => {
               01826673496
             </a>
           </div>
-          <div className="flex items-center text-xl gap-3 font-bold">
+          <div className="flex items-center lg:text-xl gap-3 font-bold">
             <MdEmail className="text-2xl"></MdEmail>{" "}
             <a
               className="text-royal-blue cursor-pointer hover:underline"
@@ -46,7 +46,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="flex items-center text-xl gap-3 font-bold">
+          <div className="flex items-center lg:text-xl gap-3 font-bold">
             <FaPhone className="text-2xl"></FaPhone>
             <a className="text-royal-blue cursor-pointer">01826673496</a>
           </div>

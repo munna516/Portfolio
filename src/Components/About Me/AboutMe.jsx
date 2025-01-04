@@ -3,9 +3,9 @@ import Title from "../Title/Title";
 
 const AboutMe = () => {
   return (
-    <div className="px-3">
+    <div id="about" className="px-3">
       <Title title="About Me"></Title>
-      <div className="flex flex-col gap-7 md:text-lg text-navy font-medium">
+      <div  className="flex flex-col gap-7 md:text-lg text-navy font-medium">
         <h1>
           My name is <span className="text-transparent text-2xl bg-clip-text bg-gradient-to-r from-sky-500 from-10%   to-navy-light to-90%">Mehedi Hasan Munna</span>. A front-end developer from Bangladesh
           who spends most of the day coding, solving problems, or hunting bugs. I

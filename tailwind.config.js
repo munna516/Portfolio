@@ -9,6 +9,9 @@ export default {
         "royal-blue": "#0056B3",
         "slate":"#94a3b8"
       },
+      scrollBehavior: {
+        smooth: 'smooth',
+      },
     },
   },
   plugins: [require("daisyui")],

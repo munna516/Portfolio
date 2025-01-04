@@ -4,7 +4,7 @@ import diuPic from "../../assets/Images/Daffodil.jpg";
 
 const Education = () => {
   return (
-    <div>
+    <div id="education">
       <Title title="Education"></Title>
       <div className="md:flex items-center justify-center gap-10 md:gap-20 lg:gap-40 ">
         <div className="flex justify-center items-center">
