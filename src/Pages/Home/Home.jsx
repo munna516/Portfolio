@@ -10,8 +10,10 @@ const Home = () => {
   return (
     <div className="w-11/12 mx-auto">
       <Banner></Banner>
-      {/* <AboutMe></AboutMe>
+      <AboutMe></AboutMe>
       <Skills></Skills>
+      {/* 
+      
       <Education></Education>
       <Projexts></Projexts>
       <Contact></Contact> */}

@@ -37,11 +37,11 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar fixed top-0 bg-base-300 left-0 z-50  py-3 px-16">
+    <div className="navbar fixed top-0 bg-base-300 left-0 z-50  py-3 px-5 lg:px-16">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <MdTableRows className="text-2xl"></MdTableRows>
+            <MdTableRows className="text-2xl text-royal-blue"></MdTableRows>
           </div>
           <ul
             tabIndex={0}

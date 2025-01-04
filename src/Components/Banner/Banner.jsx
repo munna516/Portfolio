@@ -4,12 +4,12 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="md:flex items-center justify-evenly mt-32 px-5 lg:px-10">
+    <div className="md:flex items-center justify-around mt-32 px-5 lg:px-10">
       {/* Left Side Designamtion */}
       <div className="text-center md:text-left">
         <div className="">
           <h1 className="text-navy font-medium text-base md:text-lg lg:text-xl">
-            Welcome to My Personal Portfolio
+            Welcome to My Personal Portfolio 😊
           </h1>
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold my-3">
             I'm{" "}
@@ -48,6 +48,13 @@ const Banner = () => {
           </a>
         </div>
         <div className="mt-8">
+          <a
+            href="https://docs.google.com/document/d/1XzOiH_4OKDpd-yNg3OgLo-c5IplcFswSnNh4Fr-T9A4/edit?usp=sharing"
+            target="_blank"
+            className="btn bg-royal-blue text-white hover:bg-navy-light mr-5"
+          >
+            View Resume
+          </a>
           <a
             href="/resume.pdf"
             download="Munna_Resume.pdf"
