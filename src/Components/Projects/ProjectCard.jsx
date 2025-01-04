@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         <img className="h-52 rounded-lg" src={image} alt="Shoes" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{name}</h2>
+        <h2 className="card-title text-xl text-navy font-bold">{name}</h2>
         <div className="card-actions justify-center mt-4">
           <a href={livelink} target="_blank">
             <button className="btn bg-royal-blue text-white hover:bg-navy-light ">

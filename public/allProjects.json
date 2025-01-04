@@ -6,6 +6,7 @@
     "livelink": "https://assignment-11-65909.web.app",
     "client": "https://github.com/munna516/HelpHive-Client",
     "server": "https://github.com/munna516/HelpHive-Server",
+    "description": "This Volunteer Management Website is built to enhance the efficiency of volunteer coordination and engagement. It aims to improve volunteer retention, facilitate faster collaboration, increase event visibility, and simplify application processes.The platform features secure user registration and login with JWT implementation, allowing volunteers to request opportunities and organizations to post, update, or delete volunteer needs with ease. Users can also cancel volunteering requests and search for opportunities using title-based filters. The interface supports both grid and table layouts for flexible navigation and includes a sleek dark mode for a modern user experience. With comprehensive event management tools, this platform ensures a seamless and effective way to connect volunteers with meaningful opportunities.",
     "technology": [
       "React",
       "NodeJs",
@@ -24,8 +25,9 @@
     ],
     "limitaion": [
       "Role Based User not implemented",
-      "Email Verification not implemented",
-      "User & Admin Dashboard did not implement"
+      "Lack of Communication Tools",
+      "No Advanced Matching System",
+      "Limited Reporting and Analytics"
     ]
   },
   {
@@ -35,6 +37,7 @@
     "livelink": "https://chill-gamer-3bccb.web.app",
     "client": "https://github.com/munna516/Chill-Gamer-Client",
     "server": "https://github.com/munna516/Chill-Gamer-Server",
+    "description": "Chill Gamer is a game review platform designed for gaming enthusiasts to share and explore insights about their favorite games. The platform allows users to add and update game reviews, sort reviews by year or rating, and filter them based on genre for a tailored browsing experience. Each review is tied to its owner, ensuring authenticity and accountability. Logged-in users can manage their personal reviews and maintain a watchlist of games they are interested in. The All Game Reviews section provides access to a wide range of reviews, making Chill Gamer the ultimate destination for discovering and sharing game experiences.",
     "technology": [
       "React",
       "MongoDB",
@@ -54,7 +57,8 @@
     "limitaion": [
       "Backend did not implemented",
       "No login and Registration page",
-      "Verify User"
+      "No Payment Features",
+      "Review Quality Control"
     ]
   },
   {
@@ -65,6 +69,7 @@
     "client": "https://github.com/munna516/Gadget-Heaven",
     "server": "https://github.com/munna516/Gadget-Heaven",
     "technology": ["HTML", "CSS", "Tailwind", "DaisyUI", "React"],
+    "description": "Gadget Heaven is a gadget purchase platform tailored for tech enthusiasts. It offers a seamless browsing experience with category-wise product organization, making it easy to find the latest gadgets. Users can add items to their cart and save favorites in a watchlist for future reference. Without payment integration, the platform focuses on helping users explore, compare, and organize their gadget selections conveniently. Gadget Heaven is the perfect destination to discover and curate your tech wishlist",
     "features": [
       "Category Base Product",
       "Shopping Cart",
@@ -73,8 +78,9 @@
     ],
     "limitaion": [
       "Backend did not implemented",
-      "No login and Registration page",
-      "Verify User"
+      "No Login and Registration Feature",
+      "No payment Feature",
+      "Lack of Wishlist Sharing"
     ]
   }
 ]

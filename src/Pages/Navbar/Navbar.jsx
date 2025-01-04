@@ -50,7 +50,7 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <Link to="/" className="text-2xl font-bold text-royal-blue">
+        <Link to="/" className="text-xl md:text-2xl lg:text-3xl font-bold text-royal-blue">
          MH MUNNA
         </Link>
       </div>
