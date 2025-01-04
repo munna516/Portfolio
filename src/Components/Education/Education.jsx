@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Title from "../Title/Title";
 
 const Education = () => {
-    return (
-        <div>
-            This is Education
-        </div>
-    );
+  return (
+    <div>
+      <Title title="Education"></Title>
+    </div>
+  );
 };
 
 export default Education;
