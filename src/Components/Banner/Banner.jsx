@@ -4,7 +4,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div id="home" className="md:flex items-center justify-around mt-32 px-5 lg:px-10">
+    <div id="home" className="md:flex items-center justify-between mt-32  ">
       {/* Left Side Designamtion */}
       <div className="text-center md:text-left">
         <div className="">
