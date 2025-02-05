@@ -49,7 +49,7 @@ const Banner = () => {
         </div>
         <div className="mt-8">
           <a
-            href="https://docs.google.com/document/d/1XzOiH_4OKDpd-yNg3OgLo-c5IplcFswSnNh4Fr-T9A4/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1H5lOprxNZgROQcenIFT-gM5bZ0W31oR4/view?usp=drive_link"
             target="_blank"
             className="btn bg-royal-blue text-white hover:bg-navy-light mr-5"
           >
