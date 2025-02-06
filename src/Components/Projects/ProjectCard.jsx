@@ -12,11 +12,11 @@ const ProjectCard = ({ project }) => {
       <div className="card-body">
         <h2 className="card-title text-xl text-navy font-bold">{name}</h2>
         <div className="card-actions justify-center mt-4">
-          <a href={livelink} target="_blank">
+          {/* <a href={livelink} target="_blank">
             <button className="btn bg-royal-blue text-white hover:bg-navy-light ">
               Live Link
             </button>
-          </a>
+          </a> */}
 
           <Link
             to={`/project/${id}`}

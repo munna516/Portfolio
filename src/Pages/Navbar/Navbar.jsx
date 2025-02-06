@@ -5,12 +5,12 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-        <a
-          href="#home"
+        <Link
+          to="/"
           className="border-royal-blue hover:border-b-2 rounded-b-sm"
         >
           Home
-        </a>
+        </Link>
       </li>
       <li>
         <a

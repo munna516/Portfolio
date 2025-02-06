@@ -7,7 +7,7 @@ const skillCard = ({ skill }) => {
       <figure className="p-5">
         <img className="w-32 h-24" src={image} alt={name} />
       </figure>
-      <h1 className="flex justify-center py-3 text-xl font-bold text-navy">{name}</h1>
+      <h1 className="flex justify-center py-3 text-xl font-bold text-royal-blue">{name}</h1>
     </div>
   );
 };

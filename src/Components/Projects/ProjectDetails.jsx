@@ -14,7 +14,8 @@ const ProjectDetails = () => {
     server,
     technology,
     features,
-    limitaion,
+    futurePlans,
+    challengesFaced
   } = project || {};
   useEffect(() => {
     fetch("/allProjects.json")
@@ -48,7 +49,7 @@ const ProjectDetails = () => {
               {description}
             </h1>
           )}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  px-3 md:px-5 lg:px-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8  px-3 md:px-5 lg:px-10">
             <div className="">
               <h1 className="text-lg md:text-xl lg:text-3xl text-royal-blue  mb-3 font-bold">
                 {" "}
@@ -74,10 +75,21 @@ const ProjectDetails = () => {
             </div>
             <div>
               <h1 className="text-lg md:text-xl lg:text-3xl text-royal-blue mb-3 font-bold">
-                Limitaions
+                Challenges Face
               </h1>
-              {limitaion &&
-                limitaion.map((limit, idx) => (
+              {challengesFaced &&
+                challengesFaced.map((challenges, idx) => (
+                  <li key={idx} className="text-lg font-semibold text-navy">
+                    {challenges}
+                  </li>
+                ))}
+            </div>
+            <div>
+              <h1 className="text-lg md:text-xl lg:text-3xl text-royal-blue mb-3 font-bold">
+                Future Plans
+              </h1>
+              {futurePlans &&
+                futurePlans.map((limit, idx) => (
                   <li key={idx} className="text-lg font-semibold text-navy">
                     {limit}
                   </li>
@@ -92,12 +104,7 @@ const ProjectDetails = () => {
             </a>
             <a href={client} target="_blank">
               <button className="btn bg-royal-blue text-white hover:bg-navy-light ">
-                Client Repo
-              </button>
-            </a>
-            <a href={server} target="_blank">
-              <button className="btn bg-royal-blue text-white hover:bg-navy-light ">
-                Server Repo
+                Client Site
               </button>
             </a>
           </div>

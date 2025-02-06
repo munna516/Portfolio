@@ -25,11 +25,17 @@
       "Admin Statistics",
       "Payment System"
     ],
-    "limitaion": [
-      "SSL Commerce not implemented",
-      "It applicable only single Building",
-      "No Advanced Matching System",
-      "Limited Reporting and Analytics"
+    "futurePlans": [
+      "SSL Commerce implementation",
+      "Built for Multiple Building",
+      "Matching System Integration",
+      "Reporting and Analytics Indicator"
+    ],
+    "challengesFaced": [
+      "Ensure secure role-based authentication",
+      "Payment System Integration",
+      "Apartment Search & Management",
+      "Performance Optimization"
     ]
   },
   {
@@ -56,11 +62,17 @@
       "Grid & Table Layout",
       "Volunteer Need Post Update & Delete"
     ],
-    "limitaion": [
-      "Role Based User not implemented",
-      "Lack of Communication Tools",
-      "No Advanced Matching System",
-      "Limited Reporting and Analytics"
+    "futurePlans": [
+      "Role Based User implementation",
+      "Communication Tools",
+      "Matching System",
+      "Reporting and Analytics Indicator"
+    ],
+    "challengesFaced": [
+      "JWT Implementation",
+      "Registration & Authentication",
+      "Search & Filtering System",
+      "Performance Optimization"
     ]
   },
   {
@@ -87,11 +99,17 @@
       "Grid & Table Layout",
       "All game review section"
     ],
-    "limitaion": [
-      "Backend did not implemented",
-      "No login and Registration page",
-      "No Payment Features",
+    "futurePlans": [
+      "Game Blog Section",
+      "Login and Registration page",
+      "Payment Features",
       "Review Quality Control"
+    ],
+    "challengesFaced": [
+      "Handling Review Management",
+      "Sorting & Filtering Large Review Data",
+      "Review Authenticity & Quality Control",
+      "User Watchlist Management"
     ]
   },
   {
@@ -115,11 +133,17 @@
       "Watchlist",
       "Sorting product based On Price"
     ],
-    "limitaion": [
-      "Backend did not implemented",
-      "No Login and Registration Feature",
-      "No payment Feature",
-      "Lack of Wishlist Sharing"
+    "futurePlans": [
+      "Backend implementation",
+      "Login and Registration Feature",
+      "payment Feature",
+      "Watchlist Sharing Option"
+    ],
+    "challengesFaced": [
+      "Category-Based Product Organization",
+      "Shopping Cart Management",
+      "Watchlist Feature",
+      "Backend Implementation"
     ]
   }
 ]
